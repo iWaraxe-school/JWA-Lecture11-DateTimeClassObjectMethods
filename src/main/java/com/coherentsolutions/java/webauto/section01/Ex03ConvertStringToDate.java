@@ -14,7 +14,7 @@ public class Ex03ConvertStringToDate {
         // W - week in month
         // H - 0-24
         // h - A.M/P.M
-        String str = args.length == 0 ? "2011-13-11" : args[0];
+        String str = args.length == 0 ? "2011-14-41" : args[0];
 
         System.out.print("String " + str + " parsed as ");
         Date parsingDate;

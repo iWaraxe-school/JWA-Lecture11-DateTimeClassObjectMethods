@@ -7,9 +7,11 @@ import java.util.Date;
  */
 public class Ex01CurrentDateAndTime {
     public static void main(String[] args) {
-        Date date = new Date(1_000_000_000_000L);
+        Date date1 = new Date();
+        Date date2 = new Date(1_000_000_000_000L);
 
         // Print the current date and time using toString()
-        System.out.println(date.toString());
+        System.out.println(date1.toString());
+        System.out.println(date2.toString());
     }
 }

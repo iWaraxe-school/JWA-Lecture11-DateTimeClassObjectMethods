@@ -10,9 +10,11 @@ public class Ex02ObjectMethods {
 
 
         // toString() method
-        System.out.println("Developer 1: " + developer1.toString());
-        System.out.println("Developer 1: " + developer2.toString());
+        System.out.println("Developer 1: " + developer1);
+        System.out.println("Developer 2: " + developer2.toString());
 
+        // ==
+        System.out.println(developer1 == developer2);
         // equals() method
         System.out.println("Developer 1 equals Developer 2: " + developer1.equals(developer2));
 

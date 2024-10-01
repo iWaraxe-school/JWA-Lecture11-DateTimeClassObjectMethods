@@ -21,7 +21,7 @@ public class NewWayExample {
         System.out.println("Future Date: " + futureDate);
 
         // Formatting date and time
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
         String formattedDateTime = currentDateTime.format(formatter);
         System.out.println("Formatted Date and Time: " + formattedDateTime);
     }

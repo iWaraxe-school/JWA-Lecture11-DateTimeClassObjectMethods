@@ -18,7 +18,7 @@ public class Ex01ObjectReference {
     }
 }
 
-class Developer {
+class Developer extends Object {
     private String name;
     private String lastName;
     private int age;
@@ -66,6 +66,7 @@ class Developer {
         result = 31 * result + Objects.hashCode(lastName);
         return result;
     }
+
 }
 
 enum Position {
